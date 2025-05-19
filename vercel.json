@@ -4,9 +4,33 @@
         {
             "src": "*.html",
             "use": "@vercel/static"
+        },
+        {
+            "src": "*.css",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "*.js",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "*.svg",
+            "use": "@vercel/static"
         }
     ],
     "routes": [
+        {
+            "src": "/styles.css",
+            "dest": "/styles.css"
+        },
+        {
+            "src": "/script.js",
+            "dest": "/script.js"
+        },
+        {
+            "src": "/favicon.svg",
+            "dest": "/favicon.svg"
+        },
         {
             "src": "/(.*)",
             "dest": "/index.html"
