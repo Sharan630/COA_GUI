@@ -1,0 +1,16 @@
+{
+    "name": "cpu-simulator",
+    "version": "1.0.0",
+    "description": "A CPU Simulator with Assembly Language Support",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve .",
+        "dev": "serve ."
+    },
+    "dependencies": {
+        "serve": "^14.2.1"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+} 
